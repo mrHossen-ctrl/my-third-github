@@ -1,0 +1,12 @@
+#1 Start with new repository:
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mrHossen-ctrl/my-third-github.git
+git push -u origin main
+
+#2 Other time:
+git add .
+git commit -m "meaningful message"
+git push -u origin main
